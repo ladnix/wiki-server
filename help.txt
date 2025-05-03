@@ -1,0 +1,67 @@
+# Local Wiki Server
+---
+This project provides a local Wiki server for displaying text files formatted
+in Markdown style. By default, the server will run in port 8000.
+---
+## How to Use
+After starting the server, open your browser and go to:
+```
+http://127.0.0.1:8000
+```
+---
+## File Structure
+All text files are stored in the project folder. You can create subfolders,
+but don't forget to include them in file path links. Each text file in this
+folder will be displayed as a separate Wiki page. The main Wiki is home.txt -
+this file will be shown first when the server starts.
+To navigate between Wiki pages, use links in the format:
+```
+[Link Title](file_path.txt)
+```
+---
+## Key Features
+### Headings:
+# Heading 1
+```
+# Heading 1
+```
+## Heading 2
+```
+## Heading 2
+```
+### Heading 3
+```
+### Heading 3
+```
+
+### Numbered Lists:
+```
+1. First item
+2. Second item
+3. Third item
+```
+
+### Bulleted Lists:
+```
+- List item
+- Another intem
+```
+
+### Horizontal Rules:
+```
+---
+```
+
+### Code Block (without backslash)
+```
+\```
+Code
+\```
+```
+---
+## Stop Server via Browser
+```
+http://127.0.0.1:8000/quit
+```
+---
+
